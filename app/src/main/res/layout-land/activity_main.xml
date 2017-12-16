@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.udacity.myapplication.MainActivity">
+
+    <ImageView
+        android:id="@+id/brain_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/brain" />
+
+    <ImageView
+        android:id="@+id/udacity_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/street_text_view"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/udacitylogobl" />
+
+    <TextView
+        android:id="@+id/street_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/udacity_image_view"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:text="2465 Latham St"
+        android:autoLink="map"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/state_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/street_text_view"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:text="Mountain View"
+        android:autoLink="map"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/zip_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/state_text_view"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="CA 94043"
+        android:autoLink="map"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phone_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/zip_text_view"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:autoLink="phone"
+        android:text="650-555-5555"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/link_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/phone_text_view"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="30dp"
+        android:autoLink="web"
+        android:text="www.udacity.com "
+        android:textColorLink="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

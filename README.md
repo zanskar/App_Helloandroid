@@ -7,6 +7,9 @@ This is the very first project of the first phase of Google Developer Challenge 
 <ul>
   <li>ImageView and TextView</li>
   <li>Different layouts for portrait and landscape views</li> 
+  <li>Use different types of fonts</li>
+  <li>Include links opening a website</li>
+  <li>Use dimens, strings, colors and style xml files</li>
 </ul>
 
 ## Screenshots

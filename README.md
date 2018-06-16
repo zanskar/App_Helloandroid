@@ -9,5 +9,5 @@ This is the first project of the Google Developer Challenge Scholarship - Androi
   <li>Different layouts for portrait and landscape views</li>   
 
 ## Screenshots
-<img src="/images/screenshot1.png" width="363" height="564">
-<img src="/images/screenshot2.png" width="363" height="564">
+<img src="/images/Screenshot_1529180375.jpg" width="363" height="564">
+<img src="/images/Screenshot_1529180399.jpg" width="363" height="564">

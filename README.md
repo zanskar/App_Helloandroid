@@ -10,4 +10,5 @@ This is the first project of the Google Developer Challenge Scholarship - Androi
 
 ## Screenshots
 <img src="/images/Screenshot_1529180375.jpg" width="363" height="564">
-<img src="/images/Screenshot_1529180399.jpg" width="363" height="564">
+
+<img src="/images/Screenshot_1529180399.jpg" width="564" height="363">

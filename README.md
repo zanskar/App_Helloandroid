@@ -1,7 +1,7 @@
 # Helloandroid
 
 ## Description
-This is the very first project of the first phase of Google Developer Challenge Scholarship - Android Basics - 2017/2018. We had to create a business card for Udacity.
+This is the very first project of the first phase of Google Developer Challenge Scholarship - Android Basics - 2017/2018. The subject was to create a business card for Udacity.
 
 ## Technical points
 <ul>
